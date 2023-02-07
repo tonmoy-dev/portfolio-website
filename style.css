@@ -79,7 +79,7 @@ common css
     justify-content: space-between;
 }
 .nav-logo{
-    font-size: 30px;
+    font-size: 36px;
     font-weight: 800;
     color: var(--primary-color)
 }
@@ -89,7 +89,7 @@ common css
 
 .nav-items ul li {
     list-style: none;
-    margin-right: 40px;
+    margin-right: 30px;
 }
 
 .nav-items ul li:last-child {
@@ -99,6 +99,10 @@ common css
 .nav-items ul li a {
     font-size: 1.125rem;
     line-height: 24px;
+    font-weight: 500;
+}
+.nav-items ul li a:hover{
+    color: var(--primary-color);
 }
 
 
@@ -140,35 +144,28 @@ common css
     padding-top: 100px;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
-    gap: 30px;
+    gap: 10px;
 }
 .about .title{
     margin-bottom: 20px;
+    color: var(--primary-color);
 }
 .about-right-area{
     width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: right;
 }
 .about-right-area img{
-    width: 100%;
+    width: 400px;
 }
 /* education */
 .education{
     padding-top: 100px;
 }
-.edu-details{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-}
-.edu-left-area{
-    border-right: 5px solid black;
-    text-align: right;
-}
-.edu-left-area , .edu-right-area{
-    height: 200px;
-    background-color: red;
-}
 .education h1{
     margin-bottom: 20px;
+    color: var(--primary-color);
 }
 table {
     width: 100%;
@@ -184,7 +181,7 @@ tr::after{
     border-radius: 50%;
     top: 50%;
     left: 49.50%;
-    background-color: var(--secondary-color)
+    background-color: rgb(79, 29, 126)
 }
 
 td {
@@ -220,6 +217,7 @@ td:nth-child(2){
 }
 .contact-left-area h1{
     margin-bottom: 20px;
+    color: var(--primary-color);
 }
 .contact-right-area p{
     line-height: 1.8;
@@ -237,7 +235,8 @@ form input, textarea{
     padding: 10px 20px;
     border: 1px solid #ddd;
     border-radius: 5px;
-    background-color: #000;
+    background-color: var(--primary-color);
     color: #fff;
     cursor: pointer;
+    font-weight: 500;
 }
