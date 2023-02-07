@@ -10,31 +10,39 @@
 </head>
 
 <body>
-    <header>
-        <nav>
-            <div id="navbar-logo">Rx</div>
-            <ul>
+    <header class="navigation">
+        <nav class="nav-items">
+            <div class="nav-logo">Rx</div>
+            <ul class="flex-container">
                 <li><a href="#">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#education">Education</a></li>
                 <li><a href="#contact">Contact</a></li>
-                <li><a href="aboutme.html">about me</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <section class="hero-area flex-container">
-            <div class="half-width">
-                <div class="title"><span class="small-text">Hello, I'm</span> <br>Tonmoy Roy.<br></div>
-                <p>A Bachelor of ECE (Engg) Student.</p>
-                <div class="details">
-                    <div>
+        <section class="hero-area container">
+            <div class="flex-container half-width">
+                <div class="title"><span class="small-text">Hello, I'm</span>Tonmoy Roy<br></div>
+                <p>A Bachelor of Science (Engg) Student.</p>
+                <div class="info">
+                    <div class="flex-container">
                         <img width="30" height="30" src="./images/heroArea/calender.svg" alt="">
-                        <p>25th December, 1999.</p>
+                        <span>25th December, 1999.</span>
                     </div>
-                    <p>+088-1739535903</p>
-                    <p>tonmoyroydev@gmail.com</p>
-                    <p>Dinajpur Sadar, Dinajpur.</p>
+                    <div class="flex-container">
+                        <img src="./images/heroArea/call.svg" height="20" width="20" alt="">
+                        <p>+088-1739535903</p>
+                    </div>
+                    <div class="flex-container">
+                        <img src="./images/heroArea/mail.svg" height="20" width="20" alt="">
+                        <p>tonmoyroydev@gmail.com</p>
+                    </div>
+                    <div class="flex-container">
+                        <img src="./images/heroArea/house.svg" height="25" width="25" alt="">
+                        <p>Dinajpur Sadar, Dinajpur.</p>
+                    </div>
                 </div>
                 <div class="social-icons">
                     <div>
@@ -80,8 +88,8 @@
                 </div>
             </div>
         </section>
-        <section class="about flex-container" id="about">
-            <div class="half-width">
+        <section class="about container grid-container" id="about">
+            <div class="about-left-area">
                 <h1 class="title">About Me</h1>
                     <p class="align-text">
                         I am an undergraduate student of Electronics and Communication Engineering (ECE) department at Hajee Mohammad Danesh Science & Technology University. I always try to passonate about my study and work.
@@ -89,7 +97,7 @@
                         My hobbies are listening music, reading novels, and watching movies. This offers me different forms of entertainment and relaxation. 
                     </p>
                 </div>
-            <div class="half-width">
+            <div class="about-right-area">
                 <img src="./images/devs.png" alt="profile_img">
             </div>
             
@@ -132,7 +140,7 @@
 
         <section class="container contact" id="contact">
             <div class="contact-left-area">
-                <h1>Contact Me</h1>
+                <h1>Get In Touch</h1>
                 <form>
                     <input type="text" placeholder="Name">
                     <input type="email" placeholder="Email">
@@ -140,7 +148,7 @@
                     <button id="submit-btn" type="submit">Submit</button>
                 </form>
             </div>
-            <div class="contact-right-area">
+            <!-- <div class="contact-right-area">
                 <h3>Connect with me</h3>
                 <p>
                     Call me on: +91-22-41000 <br>
@@ -148,7 +156,7 @@
                     Address: Dinajpur Sadar, Dinajpur.
                 </p>
 
-            </div>
+            </div> -->
         </section>
     </main>
     <footer>
